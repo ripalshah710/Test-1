@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AliaSQL.Core</name>
+    </assembly>
+    <members>
+        <member name="M:AliaSQL.Core.DbUpdater.UpdateDatabase(System.String,AliaSQL.Core.RequestedDatabaseAction,System.String)">
+            <summary>
+            <para>Runs AliaSQL against a database</para>
+            <para>Default action is Update but it can be set to other AliaSQL actions</para>
+            <para>Default script directory is ~/App_Data/scripts/ but it can bet set to any physical path</para>
+            <para>-If database does not exist it will be created</para>
+            <para>-Script directory path must exist</para>
+            <para>Returns an object with a success boolean and a result string</para>
+            </summary>
+            <param name="connectionString"></param>
+            <param name="action"></param>
+            <param name="scriptDirectory"></param>
+            <returns>Returns an object with a success boolean and a result string</returns>
+        </member>
+        <member name="M:AliaSQL.Core.DbUpdater.PendingChanges(System.String,System.String)">
+            <summary>
+            <para>Gets list of SQL scripts that have not been ran against the target database</para>
+            <para>Default script directory is ~/App_Data/scripts/ but it can bet set to any physical path</para>
+            <para>-Script directory path must exist</para>
+            <para>Returns a list of string with names of pending sql scripts</para>
+            </summary>
+            <param name="connectionString"></param>
+            <param name="scriptDirectory"></param>
+            <returns>Returns a list of string with names of pending sql scripts</returns>
+        </member>
+        <member name="M:AliaSQL.Core.DbUpdater.PendingTestData(System.String,System.String)">
+            <summary>
+            <para>Gets list of SQL test data scripts that have not been ran against the target database</para>
+            <para>Default script directory is ~/App_Data/scripts/ but it can bet set to any physical path</para>
+            <para>-Script directory path must exist</para>
+            <para>Returns a list of string with names of pending test data sql scripts</para>
+            </summary>
+            <param name="connectionString"></param>
+            <param name="scriptDirectory"></param>
+            <returns>RReturns a list of string with names of pending test data sql scripts</returns>
+        </member>
+        <member name="M:AliaSQL.Core.DbUpdater.DatabaseExists(System.String)">
+            <summary>
+            <para>Returns a boolean if the target database exists</para>
+            </summary>
+            <param name="connectionString"></param>
+            <returns>Returns a boolean if the target database exists</returns>
+        </member>
+        <member name="M:AliaSQL.Core.DbUpdater.DatabaseVersion(System.String)">
+            <summary>
+            Returns database version representing the number of scripts that have been ran against the database
+            </summary>
+            <param name="connectionString"></param>
+            <returns>Returns database version representing the number of scripts that have been ran against the database</returns>
+        </member>
+        <member name="M:AliaSQL.Core.Services.Impl.QueryExecutor.ExecuteNonQuery(AliaSQL.Core.Model.ConnectionSettings,System.String,System.Boolean)">
+            <summary>
+            Runs queries that are not specific to a database such as Drop, Create, single user mode
+            </summary>
+            <param name="settings"></param>
+            <param name="sql"></param>
+            <param name="includeDatabaseName"></param>
+        </member>
+        <member name="M:AliaSQL.Core.Services.Impl.QueryExecutor.ExecuteNonQueryTransactional(AliaSQL.Core.Model.ConnectionSettings,System.String)">
+            <summary>
+            Runs larger queries that may be multiline separated with GO
+            Runs entire sql block in a single transaction that will rollback if any part of the query errors
+            </summary>
+            <param name="settings"></param>
+            <param name="sql"></param>
+        </member>
+        <member name="M:AliaSQL.Core.Services.Impl.QueryExecutor.ScriptSupportsTransactions(System.String)">
+            <summary>
+            Some commands are not allowed inside transactions
+            http://msdn.microsoft.com/en-us/library/ms191544.aspx
+            </summary>
+        </member>
+        <member name="M:AliaSQL.Core.FileSystem.GetEncoding(System.String)">
+            <summary>
+            Determines a text file's encoding by analyzing its byte order mark (BOM)
+            Defaults to ASCII when detection of the text file's endianness fails.
+            Function originally from http://stackoverflow.com/questions/3825390/effective-way-to-find-any-files-encoding
+            </summary>
+            <param name="filename">The text file to analyze.</param>
+            <returns>The detected encoding.</returns>
+        </member>
+    </members>
+</doc>

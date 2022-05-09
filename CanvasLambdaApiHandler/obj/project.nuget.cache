@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "tv2xUbFBwZ45NaODILH1Shd6wJwh1mo5Pfe4bg4ARgeMGqQaQlN7fMiaYLK+bJdvEdsETSr6/eQojyREszCTSA==",
+  "success": true,
+  "projectFilePath": "C:\\Front-Ends\\Repos\\CanvasLambdaApiHandler\\CanvasLambdaApiHandler\\CanvasLambdaApiHandler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zaman\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\zaman\\.nuget\\packages\\restsharp\\106.15.0\\restsharp.106.15.0.nupkg.sha512"
+  ],
+  "logs": []
+}

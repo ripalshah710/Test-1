@@ -1,0 +1,9 @@
+C:\Front-Ends\Repos\CanvasLambdaApiHandler\CanvasLambdaApiHandler\bin\Release\CanvasAWSHandler.dll
+C:\Front-Ends\Repos\CanvasLambdaApiHandler\CanvasLambdaApiHandler\bin\Release\CanvasAWSHandler.pdb
+C:\Front-Ends\Repos\CanvasLambdaApiHandler\CanvasLambdaApiHandler\bin\Release\Newtonsoft.Json.dll
+C:\Front-Ends\Repos\CanvasLambdaApiHandler\CanvasLambdaApiHandler\bin\Release\RestSharp.dll
+C:\Front-Ends\Repos\CanvasLambdaApiHandler\CanvasLambdaApiHandler\obj\Release\CanvasLambdaApiHandler.csprojAssemblyReference.cache
+C:\Front-Ends\Repos\CanvasLambdaApiHandler\CanvasLambdaApiHandler\obj\Release\CanvasLambdaApiHandler.csproj.CoreCompileInputs.cache
+C:\Front-Ends\Repos\CanvasLambdaApiHandler\CanvasLambdaApiHandler\obj\Release\CanvasLambdaApiHandler.csproj.CopyComplete
+C:\Front-Ends\Repos\CanvasLambdaApiHandler\CanvasLambdaApiHandler\obj\Release\CanvasAWSHandler.dll
+C:\Front-Ends\Repos\CanvasLambdaApiHandler\CanvasLambdaApiHandler\obj\Release\CanvasAWSHandler.pdb

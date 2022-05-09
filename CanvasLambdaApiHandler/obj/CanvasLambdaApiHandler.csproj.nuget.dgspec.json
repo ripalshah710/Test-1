@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Front-Ends\\Repos\\CanvasLambdaApiHandler\\CanvasLambdaApiHandler\\CanvasLambdaApiHandler.csproj": {}
+  },
+  "projects": {
+    "C:\\Front-Ends\\Repos\\CanvasLambdaApiHandler\\CanvasLambdaApiHandler\\CanvasLambdaApiHandler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Front-Ends\\Repos\\CanvasLambdaApiHandler\\CanvasLambdaApiHandler\\CanvasLambdaApiHandler.csproj",
+        "projectName": "CanvasLambdaApiHandler",
+        "projectPath": "C:\\Front-Ends\\Repos\\CanvasLambdaApiHandler\\CanvasLambdaApiHandler\\CanvasLambdaApiHandler.csproj",
+        "packagesPath": "C:\\Users\\zaman\\.nuget\\packages\\",
+        "outputPath": "C:\\Front-Ends\\Repos\\CanvasLambdaApiHandler\\CanvasLambdaApiHandler\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zaman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://escworks.pkgs.visualstudio.com/escWorks/_packaging/ImportAttendee/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/escWorks/_packaging/base/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/escWorks/escWorks/_packaging/CanvasApiIntegration/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/escWorks/escWorks/_packaging/DoceboApiIntegration/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/escWorks/escWorks/_packaging/SquarePaymentProcessing/nuget/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.15.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
